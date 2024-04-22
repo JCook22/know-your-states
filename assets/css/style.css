@@ -1,6 +1,43 @@
 .heading {
     transform: uppercase;
-    color: slategray;
+    color: darkslategray;
     text-align: center;
     margin: auto;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.quiz-area {
+    border: 1px solid black;
+    width: 60%;
+    height: 20rem;
+    margin: auto;
+}
+
+#question {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#answer-area {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#submit-btn {
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.score-counter {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
 }
