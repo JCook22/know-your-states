@@ -12,6 +12,13 @@ body {
     font-weight: 700;
 }
 
+.introduction {
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+    padding-bottom: 1rem;
+}
+
 .quiz-area {
     border: 1px solid black;
     width: 60%;
