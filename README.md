@@ -18,6 +18,18 @@ I have used the USA flag icon in the title as it provides context to the title o
 
 ### User Stories
 
+#### First Time Visitor Goals
+
+- To test their current knowledge on the state capital cities of the USA.
+- To find the quiz easy and intuitive to use.
+- To have fun playing the quiz so that there is replayability.
+- To have the correct answers shown on an incorrect answer, to help learn for next time.
+
+#### Returning Visitor Goals
+
+- To try and beat their previous score.
+- To refresh their knowledge.
+
 ## Features
 
 ### Existing Features
