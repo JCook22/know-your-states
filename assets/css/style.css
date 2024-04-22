@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .heading {
     transform: uppercase;
     color: darkslategray;
@@ -5,6 +9,7 @@
     margin: auto;
     font-size: 3rem;
     padding-bottom: 2rem;
+    font-weight: 700;
 }
 
 .quiz-area {

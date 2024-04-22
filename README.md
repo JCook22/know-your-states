@@ -8,6 +8,14 @@ Know Your States is a quiz game which asks the player to name the capital city o
 
 ### Design
 
+#### Typography
+
+I have used the Open Sans font from Google Fonts due to this being widely popular and easily legible. It gives the quiz a clean look and feel.
+
+#### Icons
+
+I have used the USA flag icon in the title as it provides context to the title of "Know Your States", ensuring it is easily recognisable as referring to the United States of America.
+
 ### User Stories
 
 ## Features
