@@ -26,11 +26,21 @@ I have used the USA flag icon in the title as it provides context to the title o
 
 ## Testing
 
+Testing documentation can be found in the TESTING.md file.
+
 ## Technologies
 
 ### Languages
 
+HTML, CSS & Javascript
+
 ### Libraries & Programs Used
+
+- Git - Used for version control.
+- Github - Used to save site files.
+- Google Fonts - Used to import fonts.
+- Font Awesome - Used to import icons.
+- Chrome Developer Tools - Used to test site responsiveness and design features.
 
 ## Deployment
 
