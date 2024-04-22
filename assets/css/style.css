@@ -53,3 +53,8 @@ body {
     font-size: 1.5rem;
     padding-top: 1rem;
 }
+
+.control-area, button {
+    margin: auto;
+    text-align: center;
+}
