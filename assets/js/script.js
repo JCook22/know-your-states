@@ -1,6 +1,4 @@
-function checkAnswer() {
-    let userAnswer = document.getElementById("answer-area").value;
-    const cityQuestions = [
+const cityQuestions = [
         {
             "Question": "What is the capital city of Alabama?",
             "Answer": "Montgomery",
@@ -202,4 +200,14 @@ function checkAnswer() {
             "Answer": "Cheyenne",
         },
     ]
+let question = cityQuestions[0].Question;
+let answer = cityQuestions[0].Answer;
+let userAnswer = document.getElementById("answer-area").value;
+
+function checkAnswer(userAnswer) {
+    if(userAnswer === answer) {
+        alert('Correct!');
+    } else {
+        alert(`Incorrect. The correct answer is ${cityQuestions[0].Question}`);
+    }
 }
