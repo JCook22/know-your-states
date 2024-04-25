@@ -226,5 +226,7 @@ function checkAnswer() {
     } else {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
+        ++currentQuestionNum;
+        showQuestion();
     }
     }
