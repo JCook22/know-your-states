@@ -221,6 +221,8 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
         alert("Correct!");
         document.getElementById("correct").innerText = ++score;
+        ++currentQuestionNum;
+        showQuestion();
     } else {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
