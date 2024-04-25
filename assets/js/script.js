@@ -199,15 +199,13 @@ const cityQuestions = [
             "Question": "What is the capital city of Wyoming?",
             "Answer": "Cheyenne",
         },
-    ]
-let question = cityQuestions[0].Question;
-let answer = cityQuestions[0].Answer;
-let userAnswer = document.getElementById("answer-area").value;
+    ];
 
-function checkAnswer(userAnswer) {
-    if(userAnswer === answer) {
-        alert('Correct!');
-    } else {
-        alert(`Incorrect. The correct answer is ${cityQuestions[0].Question}`);
-    }
+document.getElementById("play-btn").addEventListener("click", showQuestion);
+
+let currentQuestionNum = 0;
+
+function showQuestion() {
+    const currentQuestion = cityQuestions[currentQuestionNum].Question;
+    document.getElementById("question").innerText = currentQuestion;
 }
