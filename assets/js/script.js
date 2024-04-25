@@ -202,6 +202,7 @@ const cityQuestions = [
     ];
 
 document.getElementById("play-btn").addEventListener("click", showQuestion);
+document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 
 let currentQuestionNum = 0;
 
@@ -209,3 +210,15 @@ function showQuestion() {
     const currentQuestion = cityQuestions[currentQuestionNum].Question;
     document.getElementById("question").innerText = currentQuestion;
 }
+
+function checkAnswer() {
+    const currentQuestion = cityQuestions[currentQuestionNum].Question;
+    const correctAnswer = cityQuestions[currentQuestionNum].Answer;
+    const inputBox = document.getElementById("answer-area");
+    const userAnswer = inputBox.value;
+    if (userAnswer === correctAnswer) {
+        alert("Correct!");
+    } else {
+        alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
+    }
+    }
