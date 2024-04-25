@@ -207,18 +207,22 @@ document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 let currentQuestionNum = 0;
 
 function showQuestion() {
-    const currentQuestion = cityQuestions[currentQuestionNum].Question;
+    let currentQuestion = cityQuestions[currentQuestionNum].Question;
     document.getElementById("question").innerText = currentQuestion;
 }
 
 function checkAnswer() {
-    const currentQuestion = cityQuestions[currentQuestionNum].Question;
-    const correctAnswer = cityQuestions[currentQuestionNum].Answer;
-    const inputBox = document.getElementById("answer-area");
-    const userAnswer = inputBox.value;
+    let currentQuestion = cityQuestions[currentQuestionNum].Question;
+    let correctAnswer = cityQuestions[currentQuestionNum].Answer;
+    let inputBox = document.getElementById("answer-area");
+    let userAnswer = inputBox.value;
+    let score = document.getElementById("correct").innerText;
+    let incorrectScore = document.getElementById("incorrect").innerText;
     if (userAnswer === correctAnswer) {
         alert("Correct!");
+        document.getElementById("correct").innerText = ++score;
     } else {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
+        document.getElementById("incorrect").innerText = ++incorrectScore;
     }
     }
