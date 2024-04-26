@@ -214,6 +214,7 @@ function showQuestion() {
     document.getElementById("play-btn").hidden = true;
     document.getElementById("skip-btn").style.visibility = "visible";
     document.getElementById("reset-btn").style.visibility = "visible";
+    document.getElementById("submit-btn").style.visibility = "visible";
     document.getElementById("answer-area").value = "";
 }
 
