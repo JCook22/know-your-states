@@ -209,6 +209,7 @@ let currentQuestionNum = 0;
 function showQuestion() {
     let currentQuestion = cityQuestions[currentQuestionNum].Question;
     document.getElementById("question").innerText = currentQuestion;
+    document.getElementById("play-btn").hidden = true;
 }
 
 function checkAnswer() {

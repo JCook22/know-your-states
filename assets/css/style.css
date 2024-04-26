@@ -8,20 +8,20 @@ body {
     text-align: center;
     margin: auto;
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
     font-weight: 700;
 }
 
 .introduction {
     text-align: center;
     margin: auto;
-    max-width: 60%;
-    padding-bottom: 1rem;
+    max-width: 90%;
+    padding-bottom: 0.5rem;
 }
 
 .quiz-area {
     border: 1px solid black;
-    width: 60%;
+    width: 90%;
     height: 20rem;
     margin: auto;
 }
@@ -30,8 +30,8 @@ body {
     font-size: 2rem;
     display: block;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #answer-area {
@@ -44,6 +44,7 @@ body {
 #submit-btn {
     display: block;
     margin: auto;
+    margin-top: 0.5rem;
     font-size: 1.5rem;
 }
 
@@ -51,10 +52,15 @@ body {
     margin: auto;
     text-align: center;
     font-size: 1.5rem;
-    padding-top: 1rem;
 }
 
-.control-area, button {
+.control-area {
     margin: auto;
     text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#skip-btn, #play-btn, #reset-btn {
+    font-size: 1.5rem;
 }
