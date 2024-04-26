@@ -45,7 +45,6 @@ body {
     display: block;
     margin: auto;
     margin-top: 0.5rem;
-    font-size: 1.5rem;
 }
 
 .score-counter {
@@ -61,6 +60,10 @@ body {
     font-size: 1.5rem;
 }
 
-#skip-btn, #play-btn, #reset-btn {
+button {
     font-size: 1.5rem;
+}
+
+#skip-btn, #reset-btn {
+    visibility: hidden;
 }

@@ -203,6 +203,7 @@ const cityQuestions = [
 
 document.getElementById("play-btn").addEventListener("click", showQuestion);
 document.getElementById("submit-btn").addEventListener("click", checkAnswer);
+document.getElementById("skip-btn").addEventListener("click", skipQuestion);
 
 let currentQuestionNum = 0;
 
@@ -210,6 +211,8 @@ function showQuestion() {
     let currentQuestion = cityQuestions[currentQuestionNum].Question;
     document.getElementById("question").innerText = currentQuestion;
     document.getElementById("play-btn").hidden = true;
+    document.getElementById("skip-btn").style.visibility = "visible";
+    document.getElementById("reset-btn").style.visibility = "visible";
 }
 
 function checkAnswer() {
@@ -231,3 +234,13 @@ function checkAnswer() {
         showQuestion();
     }
     }
+
+function skipQuestion() {
+    let currentQuestion = cityQuestions[currentQuestionNum].Question;
+    let correctAnswer = cityQuestions[currentQuestionNum].Answer;
+    let incorrectScore = document.getElementById("incorrect").innerText;
+    alert(`You have clicked skip! The correct answer is ${correctAnswer}.`);
+    document.getElementById("incorrect").innerText = ++incorrectScore;
+    ++currentQuestionNum;
+    showQuestion();
+}
