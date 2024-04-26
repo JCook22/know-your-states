@@ -248,5 +248,8 @@ function skipQuestion() {
 }
 
 function resetQuiz() {
-
+    currentQuestionNum = 0;
+    showQuestion();
+    document.getElementById("correct").innerText = 0;
+    document.getElementById("incorrect").innerText = 0;
 }

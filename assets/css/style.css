@@ -39,12 +39,14 @@ body {
     margin: auto;
     text-align: center;
     font-size: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 #submit-btn {
     display: block;
     margin: auto;
     margin-top: 0.5rem;
+    visibility: hidden;
 }
 
 .score-counter {
