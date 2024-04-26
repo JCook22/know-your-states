@@ -204,6 +204,7 @@ const cityQuestions = [
 document.getElementById("play-btn").addEventListener("click", showQuestion);
 document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 document.getElementById("skip-btn").addEventListener("click", skipQuestion);
+document.getElementById("reset-btn").addEventListener("click", resetQuiz);
 
 let currentQuestionNum = 0;
 
@@ -213,6 +214,7 @@ function showQuestion() {
     document.getElementById("play-btn").hidden = true;
     document.getElementById("skip-btn").style.visibility = "visible";
     document.getElementById("reset-btn").style.visibility = "visible";
+    document.getElementById("answer-area").value = "";
 }
 
 function checkAnswer() {
@@ -243,4 +245,8 @@ function skipQuestion() {
     document.getElementById("incorrect").innerText = ++incorrectScore;
     ++currentQuestionNum;
     showQuestion();
+}
+
+function resetQuiz() {
+
 }
