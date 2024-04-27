@@ -120,7 +120,7 @@ const cityQuestions = [
             "Answer": "Trenton",
         },
         {
-            "Question": "What is the capital city of Nex Mexico?",
+            "Question": "What is the capital city of New Mexico?",
             "Answer": "Santa Fe",
         },
         {
