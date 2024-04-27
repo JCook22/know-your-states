@@ -228,17 +228,20 @@ function checkAnswer() {
     let userAnswer = inputBox.value;
     let score = document.getElementById("correct").innerText;
     let incorrectScore = document.getElementById("incorrect").innerText;
-    if (userAnswer === correctAnswer) {
+    if (currentQuestionNum == 49 && userAnswer === correctAnswer) {
+        document.getElementById("correct").innerText = ++score;
+        alert(`Correct! Your final score was ${score}.`);
+    } else if (userAnswer === correctAnswer) {
         alert("Correct!");
         document.getElementById("correct").innerText = ++score;
         ++currentQuestionNum;
         showQuestion();
-    } else {
+    }  else if (userAnswer !== correctAnswer) {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
         ++currentQuestionNum;
         showQuestion();
-    }
+    } 
     }
 
 function skipQuestion() {
