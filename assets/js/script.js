@@ -230,13 +230,16 @@ function checkAnswer() {
     let incorrectScore = document.getElementById("incorrect").innerText;
     if (currentQuestionNum == 49 && userAnswer === correctAnswer) {
         document.getElementById("correct").innerText = ++score;
-        alert(`Correct! Your final score was ${score}.`);
+        alert(`Correct! Your final score is ${score}.`);
+    } else if (currentQuestionNum == 49 && userAnswer !== correctAnswer) {
+        document.getElementById("incorrect").innerText = ++incorrectScore;
+        alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}. Your final score is ${score}.`)
     } else if (userAnswer === correctAnswer) {
         alert("Correct!");
         document.getElementById("correct").innerText = ++score;
         ++currentQuestionNum;
         showQuestion();
-    }  else if (userAnswer !== correctAnswer) {
+    } else if (userAnswer !== correctAnswer) {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
         ++currentQuestionNum;
