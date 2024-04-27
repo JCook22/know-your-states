@@ -228,18 +228,18 @@ function checkAnswer() {
     let userAnswer = inputBox.value;
     let score = document.getElementById("correct").innerText;
     let incorrectScore = document.getElementById("incorrect").innerText;
-    if (currentQuestionNum == 49 && userAnswer === correctAnswer) {
+    if (currentQuestionNum == 49 && userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
         document.getElementById("correct").innerText = ++score;
         alert(`Correct! Your final score is ${score}.`);
-    } else if (currentQuestionNum == 49 && userAnswer !== correctAnswer) {
+    } else if (currentQuestionNum == 49 && userAnswer.toUpperCase() !== correctAnswer.toUpperCase()) {
         document.getElementById("incorrect").innerText = ++incorrectScore;
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}. Your final score is ${score}.`)
-    } else if (userAnswer === correctAnswer) {
+    } else if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
         alert("Correct!");
         document.getElementById("correct").innerText = ++score;
         ++currentQuestionNum;
         showQuestion();
-    } else if (userAnswer !== correctAnswer) {
+    } else if (userAnswer.toUpperCase() !== correctAnswer.toUpperCase()) {
         alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
         ++currentQuestionNum;
@@ -263,3 +263,4 @@ function resetQuiz() {
     document.getElementById("correct").innerText = 0;
     document.getElementById("incorrect").innerText = 0;
 }
+
