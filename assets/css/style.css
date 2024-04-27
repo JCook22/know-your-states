@@ -49,6 +49,7 @@ body {
     margin: auto;
     margin-top: 0.5rem;
     visibility: hidden;
+    background-color: beige;
 }
 
 .score-counter {
@@ -66,6 +67,7 @@ body {
 
 button {
     font-size: 1.5rem;
+    background-color: lightblue;
 }
 
 #skip-btn, #reset-btn {
