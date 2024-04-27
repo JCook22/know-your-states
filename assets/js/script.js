@@ -216,6 +216,9 @@ function showQuestion() {
     document.getElementById("reset-btn").style.visibility = "visible";
     document.getElementById("submit-btn").style.visibility = "visible";
     document.getElementById("answer-area").value = "";
+    if (currentQuestionNum == 49) {
+        document.getElementById("skip-btn").style.visibility = "hidden";
+    }
 }
 
 function checkAnswer() {
