@@ -39,7 +39,7 @@ body {
     width: 90%;
     height: auto;
     margin: auto;
-    background-color: lightcyan;
+    background-color: rgb(224, 255, 255, 0.3);
 }
 
 #question {
