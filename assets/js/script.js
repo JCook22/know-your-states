@@ -260,7 +260,9 @@ let currentQuestionNum = 0;
 
 function showQuestion() {
     let currentQuestion = cityQuestions[currentQuestionNum].Question;
-    document.getElementById("question").innerText = currentQuestion;
+    let currentState = cityQuestions[currentQuestionNum].State;
+    document.getElementById("question").innerText = "What is the capital city of";
+    document.getElementById("state").innerHTML = `<b>${currentState}?</b>`
     document.getElementById("play-btn").hidden = true;
     document.getElementById("skip-btn").style.visibility = "visible";
     document.getElementById("reset-btn").style.visibility = "visible";
@@ -278,7 +280,9 @@ function checkAnswer() {
     let userAnswer = inputBox.value;
     let score = document.getElementById("correct").innerText;
     let incorrectScore = document.getElementById("incorrect").innerText;
-    if (currentQuestionNum == 49 && userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
+    if (userAnswer === "") {
+        alert("Please enter your answer before you submit.");
+    } else if (currentQuestionNum == 49 && userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
         document.getElementById("correct").innerText = ++score;
         alert(`Correct! Your final score is ${score}.`);
     } else if (currentQuestionNum == 49 && userAnswer.toUpperCase() !== correctAnswer.toUpperCase()) {

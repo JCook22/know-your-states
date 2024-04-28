@@ -36,6 +36,13 @@ body {
     padding-bottom: 0.5rem;
 }
 
+#state {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
 #answer-area {
     display: block;
     margin: auto;
