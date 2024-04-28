@@ -4,12 +4,24 @@ body {
 
 .heading {
     transform: uppercase;
-    color: slategray;
     text-align: center;
     margin: auto;
     font-size: 3rem;
     padding-bottom: 0.5rem;
     font-weight: 700;
+    background-color: lightgray;
+}
+
+#heading-know {
+    color: red;
+}
+
+#heading-your {
+    color: white;
+}
+
+#heading-states {
+    color: navy;
 }
 
 .introduction {
