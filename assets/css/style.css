@@ -113,6 +113,48 @@ button {
         height: 360px; 
         margin: auto;
         margin-top: 1rem;
-
     }
+}
+
+@media only screen and (min-width: 1220px) {
+    #state-map {
+        background-image: url(../images/us-state-map.jpg);
+        width: 600px;
+        height: 360px; 
+        margin-top: 1rem;
+        float: left;
+    }
+
+    #usa-flag2 {
+        background-image: url(../images/usa-flag.jpg);
+        width: 600px;
+        height: 360px;
+        margin-top: 1rem;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1830px) {
+    #picture-container {
+        position: relative;
+    }
+
+    #state-map {
+        background-image: url(../images/us-state-map.jpg);
+        width: 600px;
+        height: 360px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    #usa-flag1 {
+        background-image: url(../images/usa-flag.jpg);
+        width: 600px;
+        height: 360px;
+        margin-top: 1rem;
+        float: left;
+    }    
 }
