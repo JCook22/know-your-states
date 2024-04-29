@@ -99,3 +99,20 @@ button {
     visibility: hidden;
     background-color: beige;
 }
+
+/* Media queries */
+
+@media only screen and (min-width: 600px) {
+   .introduction {
+        font-size: 1.2rem;
+    }
+
+    #state-map {
+        background-image: url(../images/us-state-map.jpg);
+        width: 600px;
+        height: 360px; 
+        margin: auto;
+        margin-top: 1rem;
+
+    }
+}
