@@ -68,4 +68,6 @@ HTML, CSS & Javascript
 
 ### Media
 
-- The US state map picture shown on devices 600px width and above was created using [mapchart](https://www.mapchart.net/usa.html).
+- The US state map picture shown on devices 600px width and above was created using [Mapchart](https://www.mapchart.net/usa.html).
+
+- The USA flag picture shown on devices 1200px width and above was downloaded from [Pixabay](https://pixabay.com/vectors/american-flag-usa-flag-symbol-2144392/).
