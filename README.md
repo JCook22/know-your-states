@@ -67,3 +67,5 @@ HTML, CSS & Javascript
 ### Content
 
 ### Media
+
+- The US state map picture shown on devices 600px width and above was created using [mapchart](https://www.mapchart.net/usa.html).
