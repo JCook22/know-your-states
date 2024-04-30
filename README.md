@@ -58,9 +58,26 @@ HTML, CSS & Javascript
 
 ### Deploying This Repository
 
+This repository is deployed using GitPages. The following steps must be taken:  
+1. Locate the github repository on GitHub. [Here](https://github.com/JCook22/know-your-states)  
+2. Find settings from the options at the top of the screen.  
+3. Navigate down to the Pages section.  
+4. From the source drop-down box select Deploy from a branch and from the branches select Main and save.
+5. The page should be live and you can click on Visit site.
+
 ### Cloning This Repository
 
+To clone this repository. The following steps must be taken:
+1. Locate the github repository on GitHub. [Here](https://github.com/JCook22/know-your-states)  
+2. Click on the green Code button and select whether you want to clone it with HTTPS, SSH or GitHub CLI. Copy the URL provided.  
+3. Open a terminal in your preferred code editor and select a new location for the cloned directory.
+4. Type "git clone" in the terminal, followed by the link you copied in step 2 and press Enter.
+
 ### Forking This Repository
+
+To fork this repository. The following steps must be taken:
+1. Locate the github repository on GitHub. [Here](https://github.com/JCook22/know-your-states)  
+2. Click on the Fork button above the About section.
 
 ## Credits
 
