@@ -16,6 +16,10 @@ I have used the Open Sans font from Google Fonts due to this being widely popula
 
 I have used the USA flag icon in the title as it provides context to the title of "Know Your States", ensuring it is easily recognisable as referring to the United States of America.
 
+#### Wireframes
+
+![Wireframes](assets/images/know-your-states-wireframe.png)
+
 ### User Stories
 
 #### First Time Visitor Goals
@@ -48,6 +52,7 @@ HTML, CSS & Javascript
 
 ### Libraries & Programs Used
 
+- Balsamiq - Used to create wireframes.
 - Git - Used for version control.
 - Github - Used to save site files.
 - Google Fonts - Used to import fonts.
