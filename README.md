@@ -4,6 +4,27 @@ Know Your States is a quiz game which asks the player to name the capital city o
 
 ## Table of Contents
 
+**[1. User Experience](#user-experience)**
+* [1.1 Design](#design)
+* [1.2 User Stories](#user-stories)
+
+**[2. Features](#features)**
+* [2.1 Existing Features](#existing-features)
+* [2.2 Features Left to Implement](#features-left-to-implement)
+
+**[3. Testing](#testing)**
+
+**[4. Technologies](#technologies)**
+* [4.1 Languages](#languages)
+* [4.2 Libraries & Programs Used](#libraries--programs-used)
+
+**[5. Deployment](#deployment)**  
+* [5.1 Deploying this repository](#deploying-this-repository)
+* [5.2 Cloning this repository](#cloning-this-repository)
+* [5.3 Forking this repository](#forking-this-repository)
+
+**[6. Credits](#credits)**
+
 ## User Experience
 
 ### Design
@@ -42,7 +63,7 @@ I have used the USA flag icon in the title as it provides context to the title o
 
 ## Testing
 
-Testing documentation can be found in the TESTING.md file.
+Testing documentation can be found in the [TESTING.md](TESTING.md) file.
 
 ## Technologies
 
@@ -85,8 +106,6 @@ To fork this repository. The following steps must be taken:
 2. Click on the Fork button above the About section.
 
 ## Credits
-
-### Content
 
 ### Media
 
