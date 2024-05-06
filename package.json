@@ -1,0 +1,22 @@
+{
+  "name": "know-your-states",
+  "version": "1.0.0",
+  "description": "Know Your States is a quiz game which asks the player to name the capital city of different US states. It's a test of knowledge and a way for players to learn when they get an incorrect answer. The game will track the players score until the game is reset. The audience for the game are people interested in geography or quizzes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCook22/know-your-states.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCook22/know-your-states/issues"
+  },
+  "homepage": "https://github.com/JCook22/know-your-states#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
