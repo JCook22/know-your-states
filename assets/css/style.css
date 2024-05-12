@@ -27,7 +27,8 @@ body {
 .introduction {
     text-align: center;
     margin: auto;
-    max-width: 90%;
+    width: 90%;
+    max-width: 1200px;
     padding-bottom: 0.5rem;
 }
 
@@ -37,9 +38,11 @@ body {
     border: 1px solid black;
     border-radius: 1rem;
     width: 90%;
+    max-width: 1200px;
     height: auto;
     margin: auto;
     background-color: rgb(224, 255, 255, 0.3);
+
 }
 
 #question {
