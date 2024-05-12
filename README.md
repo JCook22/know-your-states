@@ -107,6 +107,10 @@ To fork this repository. The following steps must be taken:
 
 ## Credits
 
+### Content
+
+- I learned how to shuffle the array so that the questions appear in a random order using this thread on [Stackoverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).
+
 ### Media
 
 - The US state map picture shown on devices 600px width and above was created using [Mapchart](https://www.mapchart.net/usa.html).
