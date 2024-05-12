@@ -207,6 +207,7 @@ document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 document.getElementById("skip-btn").addEventListener("click", skipQuestion);
 document.getElementById("reset-btn").addEventListener("click", resetQuiz);
 
+
 let currentQuestionNum = 0;
 
 function shuffle(cityQuestions) {
@@ -240,20 +241,20 @@ function checkAnswer() {
     let score = document.getElementById("correct").innerText;
     let incorrectScore = document.getElementById("incorrect").innerText;
     if (userAnswer === "") {
-        alert("Please enter your answer before you submit.");
+        Swal.fire("Please enter your answer before you submit.");
     } else if (currentQuestionNum == 49 && userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
         document.getElementById("correct").innerText = ++score;
-        alert(`Correct! Your final score is ${score}.`);
+        Swal.fire(`Correct! Your final score is ${score}.`);
     } else if (currentQuestionNum == 49 && userAnswer.toUpperCase() !== correctAnswer.toUpperCase()) {
         document.getElementById("incorrect").innerText = ++incorrectScore;
-        alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}. Your final score is ${score}.`)
+        Swal.fire(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}. Your final score is ${score}.`)
     } else if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
-        alert("Correct!");
+        Swal.fire("Correct!");
         document.getElementById("correct").innerText = ++score;
         ++currentQuestionNum;
         showQuestion();
     } else if (userAnswer.toUpperCase() !== correctAnswer.toUpperCase()) {
-        alert(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
+        Swal.fire(`Unfortunately that was incorrect. The correct answer is ${correctAnswer}.`);
         document.getElementById("incorrect").innerText = ++incorrectScore;
         ++currentQuestionNum;
         showQuestion();
@@ -263,13 +264,14 @@ function checkAnswer() {
 function skipQuestion() {
     let correctAnswer = cityQuestions[currentQuestionNum].Answer;
     let incorrectScore = document.getElementById("incorrect").innerText;
-    alert(`You have clicked skip! The correct answer is ${correctAnswer}.`);
+    Swal.fire(`You have clicked skip! The correct answer was ${correctAnswer}.`);
     document.getElementById("incorrect").innerText = ++incorrectScore;
     ++currentQuestionNum;
     showQuestion();
 }
 
 function resetQuiz() {
+    shuffle(cityQuestions);
     currentQuestionNum = 0;
     showQuestion();
     document.getElementById("correct").innerText = 0;
