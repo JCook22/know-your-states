@@ -59,7 +59,91 @@ I have used the USA flag icon in the title as it provides context to the title o
 
 ### Existing Features
 
-### Features Left To Implement
+#### Title 
+
+![Title](assets/images/feature-title.jpg)
+
+The title for the website is designed using the colours of the american flag; red, white and blue. The USA flag icon was also added to provide context to the title. This helps the user to get an idea of what the topic of the quiz is at a glance.
+
+#### Introduction
+
+![Introduction](assets/images/feature-introduction.jpg)
+
+The introduction message gives a brief overview so that new users know what to expect when playing the quiz for the first time. 
+
+#### Quiz area
+
+![Quiz-area](assets/images/feature-quiz-area.jpg)
+
+The quiz area is the most important area of the site. This is where all the interactive elements are found and change as the user takes the quiz.
+
+![Quiz-area-2](assets/images/feature-quiz-area2.jpg)
+
+#### Question area
+
+![Question-area](assets/images/feature-question-area.jpg)
+
+Before the quiz has begun there will be the placeholder text of "What is the capital city of...?". When the quiz is started the rest of the question appears with the state in bold so it stands out to the user. The question is updated any time the user submits an answer, skips a question or resets the quiz.
+
+#### Answer box
+
+![Answer-box](assets/images/feature-answer-box.jpg)
+
+The answer box is where the user will input their answers to the questions. The placeholder text reads "Enter Answer Here" to make it clear what it is for and input is not case sensitive to make it more user friendly. The input field cannot be left blank when submitting an answer and a alert will pop up if you try.
+
+#### Play button
+
+![Play-button](assets/images/feature-play-button.jpg)
+
+The play button is found at the bottom of the quiz area. When the user clicks on it for the first time it begins the quiz and disappears and is replaced with the skip and reset buttons.
+
+#### Submit button
+
+![Submit-button](assets/images/feature-submit-button.jpg)
+
+The submit button is found just below the answer box once the quiz is running. It should be clear to the user that they must use the submit button once they have typed their answer. Multiple things happen when an answer is submitted, the user is alerted if they got it correct or not, their score tallys are updated and the next question is displayed.
+
+#### Alert box
+
+![Alert-box](assets/images/feature-alert-box.jpg)
+
+The alert box appears for a variety of different reasons when interacting with the quiz. It alerts users when they submit a correct or incorrect answer. If the user tries to submit an answer without filling in the input box it will appear to warn them it cannot be blank. When an incorrect answer is supplied or a question is skipped then the alert will also contain what the correct answer would've been.
+
+#### Score counter
+
+![Score-counter](assets/images/feature-score-counter.jpg)
+
+The score counter provides an easy way for the user to track their progress and compare with others. It also makes the user more likely to want to replay the quiz and see if they can improve their score.
+
+#### Skip button
+
+![Skip-button](assets/images/feature-skip-button.jpg)
+
+The skip button is found at the bottom of the quiz area once the quiz is running. Clicking the skip button will alert the user and provide them with what the correct answer would've been. The next question will appear and the users incorrect score will increase by 1.
+
+#### Reset button
+
+![Reset-button](assets/images/feature-reset-button.jpg)
+
+The reset button is found at the bottom of the quiz area once the quiz is running. Clicking the reset button will change the users scores to 0 and allow them to start again from a random question.
+
+#### Randomised order
+
+![Randomised-order](assets/images/feature-randomised-order.jpg)
+
+The quiz will always appear in a random order. If a user clicks the reset button during the quiz then the questions will be shuffled again, meaning someone is very unlikely to ever answer the questions in the same order twice.
+
+#### State map
+
+![State-map](assets/images/us-state-map.jpg)
+
+The state map image is located underneath the quiz area on tablets and other larger screen sizes. It is helpful to the user as it can be useful in helping to jog their memory. It also fits well with the theme of the quiz.
+
+#### USA flag
+
+![USA-flag](assets/images/usa-flag.jpg)
+
+The USA flag image is located underneath the quiz area on larger screen sizes such as laptops and desktops. It is purely decorative but provides more colour and fits well with the theme of the quiz.
 
 ## Testing
 
