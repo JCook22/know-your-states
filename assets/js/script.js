@@ -201,12 +201,23 @@ const cityQuestions = [
         },
     ];
 
+document.addEventListener("DOMContentLoaded", shuffle(cityQuestions));
 document.getElementById("play-btn").addEventListener("click", showQuestion);
 document.getElementById("submit-btn").addEventListener("click", checkAnswer);
 document.getElementById("skip-btn").addEventListener("click", skipQuestion);
 document.getElementById("reset-btn").addEventListener("click", resetQuiz);
 
 let currentQuestionNum = 0;
+
+function shuffle(cityQuestions) {
+    let currentIndex = cityQuestions.length;
+    while (currentIndex !=0) {
+        let randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [cityQuestions[currentIndex], cityQuestions[randomIndex]] = [
+            cityQuestions[randomIndex], cityQuestions[currentIndex]];
+        }
+    }
 
 function showQuestion() {
     let currentState = cityQuestions[currentQuestionNum].State;
