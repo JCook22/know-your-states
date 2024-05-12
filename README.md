@@ -9,8 +9,6 @@ Know Your States is a quiz game which asks the player to name the capital city o
 * [1.2 User Stories](#user-stories)
 
 **[2. Features](#features)**
-* [2.1 Existing Features](#existing-features)
-* [2.2 Features Left to Implement](#features-left-to-implement)
 
 **[3. Testing](#testing)**
 
