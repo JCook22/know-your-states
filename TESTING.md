@@ -39,7 +39,7 @@ JS Hint found no issues with the code.
     - The quiz area provides all the interactivity required, all 50 state capitals are included.
 
 2. To find the quiz easy and intuitive to use.
-    - The quiz layout is very simple and is designed so that first time users should be able to
+    - The quiz layout is very simple and is designed so that first time users should be able to understand how it works at a glance.
 
 3. To keep track of their score so they know how well they are doing.
     - The score counters provided allow a user to see how well they are doing before they finish the quiz.
