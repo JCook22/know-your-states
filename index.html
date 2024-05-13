@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="us state capital guessing game">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script
-      src="https://kit.fontawesome.com/daf3fcba2f.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/daf3fcba2f.js"
+        crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Know Your States</title>
-    
+
 </head>
+
 <body>
-    <h1 class="heading"><span id="heading-know">KNOW</span> <span id ="heading-your">YOUR</span> <span id ="heading-states">STATES <i class="fa-solid fa-flag-usa"></i></span></h1>
+    <h1 class="heading"><span id="heading-know">KNOW</span> <span
+            id="heading-your">YOUR</span> <span id="heading-states">STATES <i
+                class="fa-solid fa-flag-usa"></i></span></h1>
     <div class="introduction">
-        <p>Know Your States is a simple quiz that will name a state from the United States of America and ask you what the capital city of the state is. I hope that you enjoy!</p>
+        <p>Know Your States is a simple quiz that will name a state from the
+            United States of America and ask you what the capital city of the
+            state is. I hope that you enjoy!</p>
     </div>
     <section class="quiz-area">
         <div class="question-area">
             <span id="question">What is the capital city of... ?</span>
             <p id="state"></p>
             <input id="answer-area" type="text" placeholder="Enter Answer Here">
-        </div> 
+        </div>
         <button id="submit-btn" data-type="Submit">Submit</button>
         <div class="score-counter">
             <p class="scores">Correct: <span id="correct">0</span></p>
@@ -45,4 +51,5 @@
     </section>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
