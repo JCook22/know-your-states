@@ -121,4 +121,9 @@ JS Hint found no issues with the code.
 - Testing - Will click reset after answering a question.
 - Result - The score counters reset to 0 and a new question appeared to start the quiz.
 
+### Browser Compatibility
 
+The site has been tested for compability with the following browsers:
+- Google Chrome Version 124.0.6367.202 (Official Build) (64-bit)
+- Mozilla Firefox Version 125.0.3 (64-bit)
+- Microsoft Edge
