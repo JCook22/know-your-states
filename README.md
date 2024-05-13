@@ -45,13 +45,15 @@ I have used the USA flag icon in the title as it provides context to the title o
 
 - To test their current knowledge on the state capital cities of the USA.
 - To find the quiz easy and intuitive to use.
-- To have fun playing the quiz so that there is replayability.
+- To keep track of their score so they know how well they are doing.
 - To have the correct answers shown on an incorrect answer, to help learn for next time.
+- To be able to reset the quiz if they want to try again.
 
 #### Returning Visitor Goals
 
 - To try and beat their previous score.
 - To refresh their knowledge.
+- To answer the questions in a random order so it's better to revisit.
 
 ## Features
 
