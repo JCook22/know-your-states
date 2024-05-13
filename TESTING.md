@@ -16,6 +16,8 @@ The W3C validator was used to check all the HTML and CSS for the site.
 
 ### Mobile
 
+![mobile-lighthouse](assets/images/mobile-lighthouse.jpg)
+
 ### Desktop
 
 ## Manual Testing
