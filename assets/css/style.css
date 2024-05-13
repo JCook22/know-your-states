@@ -3,7 +3,6 @@ body {
 }
 
 .heading {
-    transform: uppercase;
     text-align: center;
     margin: auto;
     font-size: 3rem;
