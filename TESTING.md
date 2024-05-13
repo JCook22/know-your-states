@@ -126,4 +126,4 @@ JS Hint found no issues with the code.
 The site has been tested for compability with the following browsers:
 - Google Chrome Version 124.0.6367.202 (Official Build) (64-bit)
 - Mozilla Firefox Version 125.0.3 (64-bit)
-- Microsoft Edge
+- Microsoft Edge Version 124.0.2478.97 (Official build) (64-bit)
