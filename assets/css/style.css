@@ -90,7 +90,8 @@ button {
     background-color: lightblue;
 }
 
-#skip-btn, #reset-btn {
+#skip-btn,
+#reset-btn {
     visibility: hidden;
 }
 
@@ -105,14 +106,14 @@ button {
 /* Media queries */
 
 @media only screen and (min-width: 600px) {
-   .introduction {
+    .introduction {
         font-size: 1.2rem;
     }
 
     #state-map {
         background-image: url(../images/us-state-map.jpg);
         width: 600px;
-        height: 360px; 
+        height: 360px;
         margin: auto;
         margin-top: 1rem;
     }
@@ -122,7 +123,7 @@ button {
     #state-map {
         background-image: url(../images/us-state-map.jpg);
         width: 600px;
-        height: 360px; 
+        height: 360px;
         margin-top: 1rem;
         float: left;
     }
@@ -158,5 +159,5 @@ button {
         height: 360px;
         margin-top: 1rem;
         float: left;
-    }    
+    }
 }
