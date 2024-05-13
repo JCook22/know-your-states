@@ -35,6 +35,21 @@ I have used the Open Sans font from Google Fonts due to this being widely popula
 
 I have used the USA flag icon in the title as it provides context to the title of "Know Your States", ensuring it is easily recognisable as referring to the United States of America.
 
+#### Imagery
+
+There are two images used for the quiz. 
+- The USA flag - This was chosen because it fits well with the colour scheme and theme of the quiz.
+- US State map - This was chosen because it fits well with the theme of the quiz and could be a good tool to help jog users memories.
+
+#### Colours
+
+- For the quiz area a light blue colour was chosen. This helps differentiate the quiz area from the rest of the page and helps it stand out to the user.
+- For the title background a light grey was chosen. This was so that the title could have its colour theme of red, white and blue and still be visible.
+- The title uses the red, white and blue colours. This is to fit with the colours of the american flag, helping provide context and making it more interesting to the user.
+- The submit button is a light gold colour. This is to help it stand out against the light blue background of the quiz area and make it easily distinguishable from the other buttons. 
+- The rest of the buttons are a blue colour. This helps them stand out against the white background of the page and stays close to the main colour scheme.
+
+
 #### Wireframes
 
 ![Wireframes](assets/images/know-your-states-wireframe.png)
