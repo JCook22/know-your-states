@@ -191,7 +191,7 @@ To fork this repository. The following steps must be taken:
 
 ## Credits
 
-### Content
+### Code
 
 - I learned how to shuffle the array so that the questions appear in a random order using this thread on [Stackoverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).
 
