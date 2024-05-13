@@ -103,8 +103,22 @@ JS Hint found no issues with the code.
 #### Submit Button
 
 ![submit-button](assets/images/feature-submit-button.jpg)
+- Expected - When the user clicks submit, the answer should be checked to see if it's correct, notify the user and update the score accordingly. 
+- Testing - Will provide a correct answer,click submit and ensure the answer is checked, score updated and question changed.
+- Result - The question changed, the correct tally increased by 1 and the quiz alerted that it was a correct answer.
 
 #### Skip Button
 
+![skip-button](assets/images/feature-skip-button.jpg)
+- Expected - When a user clicks skip the quiz will alert them what the correct answer was, increase their incorrect score by 1 and move on to the next question.
+- Testing - Will click skip on the first question and check that the everything changes as expected.
+- Result - The quiz alerted with the correct answer, the incorrect score increased by 1 and the next question appeared.
+
 #### Reset Button
+
+![reset-button](assets/images/feature-reset-button.jpg)
+- Expected - When the user clicks the reset button, the quiz should shuffle, restart and reset the score counters.
+- Testing - Will click reset after answering a question.
+- Result - The score counters reset to 0 and a new question appeared to start the quiz.
+
 
