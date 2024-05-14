@@ -63,6 +63,7 @@ There are two images used for the quiz.
 - To keep track of their score so they know how well they are doing.
 - To have the correct answers shown on an incorrect answer, to help learn for next time.
 - To be able to reset the quiz if they want to try again.
+- To skip questions they don't know the answer to.
 
 #### Returning Visitor Goals
 

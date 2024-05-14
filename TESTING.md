@@ -41,15 +41,18 @@ JS Hint found no issues with the code.
 2. To find the quiz easy and intuitive to use.
     - The quiz layout is very simple and is designed so that first time users should be able to understand how it works at a glance.
 
+    ![quiz-area](assets/images/quiz-area-user-stories.jpg)
+
 3. To keep track of their score so they know how well they are doing.
     - The score counters provided allow a user to see how well they are doing before they finish the quiz.
 
 4. To be able to reset the quiz if they want to try again.
     - The reset button is easy to find at the bottom of the quiz, so the user can reset whenever they like.
 
-    ![quiz-area](assets/images/feature-quiz-area2.jpg)
+5. To skip questions they don't know the answer to.
+    - The skip button is allows the user to skip questions up until the final question. It provides the user with the answer but adds to their incorrect score.
 
-5. To have the correct answers shown on an incorrect answer, to help learn for next time.
+6. To have the correct answers shown on an incorrect answer, to help learn for next time.
     - Should the user supply an incorrect answer or skip a question they will be alerted of what the answer should have been.
 
     ![incorrect-alert](assets/images/feature-alert-box.jpg) 
@@ -127,3 +130,4 @@ The site has been tested for compability with the following browsers:
 - Google Chrome Version 124.0.6367.202 (Official Build) (64-bit)
 - Mozilla Firefox Version 125.0.3 (64-bit)
 - Microsoft Edge Version 124.0.2478.97 (Official build) (64-bit)
+-+
