@@ -75,6 +75,33 @@ JS Hint found no issues with the code.
 
 ### Feature Testing
 
+| Test Label                                 | Test Action                                  | Expected Outcome                                                                                | Test Outcome |
+| ------------------------------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------ |
+| Question blank before start                | Load the page                                | Question should be incomplete                                                                   | PASS         |
+| Question should show after start           | Click play button                            | Question should be shown in full                                                                | PASS         |
+| Question should match answer               | Submit correct answer                        | Question should match answer and increase score                                                 | PASS         |
+| Randomised order                           | Start and reset quiz multiple times          | First question should almost always be different                                                | PASS         |
+| Score counter correct increase             | Submit correct answer                        | Correct score should increase by 1                                                              | PASS         |
+| Score counter incorrect increase           | Submit incorrect answer                      | Incorrect score should increase by 1                                                            | PASS         |
+| Score counter skip incorrect increase      | Skip question                                | Incorrect score should increase by 1                                                            | PASS         |
+| Play button question and buttons to appear | Click play button                            | Question; skip, reset and submit buttons should appear                                          | PASS         |
+| Play button disappear after use            | Click play button                            | Play button should disappear                                                                    | PASS         |
+| Submit button appear after start           | Click play button                            | Submit button should appear                                                                     | PASS         |
+| Submit button correct answer               | Submit correct answer                        | Alert "Correct!" and increase correct score by 1                                                | PASS         |
+| Submit button incorrect answer             | Submit incorrect answer                      | Alert "Unfortunately that was incorrect." show correct answer and increase incorrect score by 1 | PASS         |
+| Submit button final answer correct         | Submit correct answer to final question      | Alert "Correct!" Your final score is (x)."                                                      | PASS         |
+| Submit button final answer incorrect       | Submit incorrect answer to final question    | Alert "Unfortunately that was incorrect." show correct answer and final score                   | PASS         |
+| Submit button input blank                  | Click submit with an empty input field       | Alert "Please enter you answer before you submit."                                              | PASS         |
+| Skip button appear after start             | Click play button                            | Skip button should appear                                                                       | PASS         |
+| Skip button disappear on final question    | Reach question 50 playing quiz               | Skip button should disappear                                                                    | PASS         |
+| Skip button alert                          | Click skip button                            | Alert "You have clicked skip! The correct answer is (x)." and proceed to next question          | PASS         |
+| Skip button incorrect score increase       | Click skip button                            | Incorrect score should increase by 1                                                            | PASS         |
+| Reset button score counter                 | Click reset button after answering questions | Score counters should both reset to 0                                                           | PASS         |
+| Reset button reshuffle                     | Click reset button                           | Question should change                                                                          | PASS         |
+| Reset button appear after start            | Click play button                            | Reset button should appear                                                                      | PASS         |
+
+
+
 #### Question Area
 
 ![question-area](assets/images/feature-question-area.jpg)
