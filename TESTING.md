@@ -157,4 +157,7 @@ The site has been tested for compability with the following browsers:
 - Google Chrome Version 124.0.6367.202 (Official Build) (64-bit)
 - Mozilla Firefox Version 125.0.3 (64-bit)
 - Microsoft Edge Version 124.0.2478.97 (Official build) (64-bit)
--+
+
+### Responsiveness Tests
+
+The site has been tested for responsivity using developer tools for a wide range of sizes. From very small screens (320px) to very large screens (5120 x 2880px).
