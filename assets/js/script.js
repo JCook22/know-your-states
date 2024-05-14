@@ -255,7 +255,8 @@ const cityQuestions = [
     ) {
       document.getElementById("incorrect").innerText = ++incorrectScore;
       Swal.fire(
-        `Unfortunately that was incorrect. The correct answer is ${correctAnswer}. Your final score is ${score}.`,
+        `Unfortunately that was incorrect. The correct answer is ${correctAnswer}. 
+        Your final score is ${score}.`,
       );
     } else if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
       Swal.fire("Correct!");
