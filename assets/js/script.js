@@ -1,3 +1,4 @@
+// questions array
 const cityQuestions = [
     {
       Answer: "Montgomery",
@@ -201,14 +202,21 @@ const cityQuestions = [
     },
   ];
   
+  // waits for the DOM to be loaded and then shuffles the array of questions
   document.addEventListener("DOMContentLoaded", shuffle(cityQuestions));
+  // waits for the DOM to be loaded before activating other event listeners
+  document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("play-btn").addEventListener("click", showQuestion);
   document.getElementById("submit-btn").addEventListener("click", checkAnswer);
   document.getElementById("skip-btn").addEventListener("click", skipQuestion);
   document.getElementById("reset-btn").addEventListener("click", resetQuiz);
+  });
+
   
+  // tracks the amount of questions answered by the user
   let currentQuestionNum = 0;
   
+  // shuffles the questions array to randomise the order
   function shuffle(cityQuestions) {
     let currentIndex = cityQuestions.length;
     while (currentIndex != 0) {
@@ -221,6 +229,7 @@ const cityQuestions = [
     }
   }
   
+  // displays the question to the user after the quiz has started
   function showQuestion() {
     let currentState = cityQuestions[currentQuestionNum].State;
     document.getElementById("question").innerText = "What is the capital city of";
@@ -235,6 +244,7 @@ const cityQuestions = [
     }
   }
   
+// checks the users answer and gives them feedback
   function checkAnswer() {
     let correctAnswer = cityQuestions[currentQuestionNum].Answer;
     let inputBox = document.getElementById("answer-area");
@@ -273,6 +283,7 @@ const cityQuestions = [
     }
   }
   
+  // skips the current question
   function skipQuestion() {
     let correctAnswer = cityQuestions[currentQuestionNum].Answer;
     let incorrectScore = document.getElementById("incorrect").innerText;
@@ -282,6 +293,7 @@ const cityQuestions = [
     showQuestion();
   }
   
+  // resets the quiz and shuffles the array
   function resetQuiz() {
     shuffle(cityQuestions);
     currentQuestionNum = 0;
